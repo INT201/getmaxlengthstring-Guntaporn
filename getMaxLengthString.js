@@ -6,7 +6,7 @@ function getMaxLengthString(arrayOfString) {
   if (arrayOfString === undefined || arrayOfString === null){
   return undefined
  }
- for (const array of arrayOfString){
+ for (array of arrayOfString){
    if (maxLenght.length === 0){
     maxLenght = [array]
    }
